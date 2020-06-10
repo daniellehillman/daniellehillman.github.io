@@ -25,27 +25,58 @@
           </div>
       </nav>
 
-      <section class="home">
+      <section class="about">
+      </section>
+      <div style="height: 1000px">
+          <!-- just to make scrolling effect possible -->
+  			<h2 class="myH2">yo</h2>
+  			<p class="myP">to</p>
+  			<p class="myP"> here is a link to nothing(<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
+  			and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
+  			<p class="myP">okay bye</p>
+  			<p class="myP">bye </p>
+  				<p class="myP">
+
+  				hi elise you are cool.
+      </div>
+
+  <!-- Jquery needed -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/js1.js"></script>
+
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+      <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+      </script>
+
+      <!-- <section class="home">
       </section>
 <!-- {%extends "index.html"%}
 {%block contnt%} -->
-<p> hi im very stupid</p>
+<!-- <p> hi im very stupid</p> -->
 
 <!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/js1.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/js1.js"></script> -->
 
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
+  <!-- <script>
+      $(window).scroll(function() {
+          if ($(document).scrollTop() > 50) {
+              $('.nav').addClass('affix');
+              console.log("OK");
+          } else {
+              $('.nav').removeClass('affix');
+          }
+      });
+  </script> --> -->
 <!-- {%endblock%} -->
 </body>
 </html>
