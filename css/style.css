@@ -16,7 +16,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: #DCB5A8;
+  color: #D6CBC1;
   background-color: white;
 }
 
@@ -738,7 +738,7 @@ main content basic style
   z-index: 1;
   min-height: 100vh;
   padding: 100px 0;
-  background-color: #DCB5A8;
+  background-color: #D6CBC1;
 }
 
 /* --------------------------------
