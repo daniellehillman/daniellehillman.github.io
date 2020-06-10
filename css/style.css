@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -14,12 +14,12 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: #003c5d;
+  color: 214, 169, 154;
   background-color: #ffffff;
 }
 
 a {
-  color: #9acd91;
+  color: 214, 203, 193;
   text-decoration: none;
 }
 
