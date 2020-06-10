@@ -51,7 +51,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #9acd91;
+  background: #AF9783;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -198,7 +198,7 @@ Stretchy Nav style - common to:
   -ms-transform: translateX(3px) translateY(-50%) scaleY(0);
   -o-transform: translateX(3px) translateY(-50%) scaleY(0);
   transform: translateX(3px) translateY(-50%) scaleY(0);
-  background-color: #0a9581;
+  background-color: #D6CBC1;
 }
 .cd-stretchy-nav ul li:first-of-type a::after {
   /* change custom icon using image sprites */
@@ -343,7 +343,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #8ac57f;
+  background-color: #AF9783;
   -webkit-transition: width 0.2s, box-shadow 0.2s;
   -moz-transition: width 0.2s, box-shadow 0.2s;
   transition: width 0.2s, box-shadow 0.2s;
