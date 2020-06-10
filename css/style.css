@@ -14,12 +14,12 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: 214, 169, 154;
+  color: #DCB5A8;
   background-color: #ffffff;
 }
 
 a {
-  color: 214, 203, 193;
+  color: #AF9783;
   text-decoration: none;
 }
 
