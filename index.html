@@ -1,97 +1,43 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color:white;">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <link rel="stylesheet" href="/css/website.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>Stretchy Navigation | CodyHouse</title>
 </head>
+<body>
+<header>
+	<nav class="cd-stretchy-nav">
+		<a class="cd-nav-trigger" href="#0">
+			Menu
+			<span aria-hidden="true"></span>
+		</a>
+
+		<ul>
+			<li><a href="#0" class="active"><span>Home</span></a></li>
+			<li><a href="#0"><span>Portfolio</span></a></li>
+			<li><a href="#0"><span>Services</span></a></li>
+			<li><a href="#0"><span>Store</span></a></li>
+			<li><a href="#0"><span>Contact</span></a></li>
+		</ul>
+
+		<span aria-hidden="true" class="stretchy-nav-bg"></span>
+	</nav>
+</header>
+
+<main class="cd-main-content">
+	<!-- main content here -->
+</main>
 
 
-<!-- <h1 style="color:white;">The Daily Cupp</h1>
-
-<p style="color:black;">
-an all things coffee blog </p> -->
-
-<!-- <h2>HTML Image</h2>
-<img src="coffeeimage.jpg" alt="Coffee" width="300" height="500"> -->
-
-<nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="/index.html">Danielle Hillman</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="/otherfiles/about.html">About</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-    </nav>
-
-    <section class="home">
-    </section>
-    <div style="height: 1000px">
-        <!-- just to make scrolling effect possible -->
-			<h2 class="myH2">Danielle Hillman</h2>
-			<p class="myP">what is up my dude</p>
-			<p class="myP"> here is a link to nothing(<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
-			and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
-			<p class="myP">okay bye</p>
-			<p class="myP">bye </p>
-				<p class="myP">
-
-				hi elise you are cool.
-    </div>
-
-<!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/js1.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
-<!--
-<section class="home"></section>
-
-<div class="btn-group">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Coffee
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Places</a>
-    <a class="dropdown-item" href="#">Gallery</a>
-    <a class="dropdown-item" href="#">About Us</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
-</div>
-
-<div class="dropdown-menu">
-  <a class="dropdown-item active" href="#">Hi</a>
-  <a class="dropdown-item active" href="#">Hello</a>
-  <a class="dropdown-item active" href="#">Bye</a>
-</div>
-
-<ul>
-  <li> <a href="/">Home<a/></li>
-  <li> <a href="places">Places<a/></li>
-  <li> <a href="gallery">Gallery<a/></li>
-  <li> <a href="about us">About Us<a/></li>
-</ul> -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
