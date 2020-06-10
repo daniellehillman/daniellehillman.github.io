@@ -11,11 +11,13 @@ html {
   font-size: 62.5%;
 }
 
+
+
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #DCB5A8;
-  background-color: #ffffff;
+  backgroun-color: white;
 }
 
 a {
@@ -361,7 +363,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #9acd91;
+  background-color: #AF9783;
 }
 .cd-stretchy-nav.add-content .cd-nav-trigger span {
   background-color: transparent;
@@ -736,7 +738,7 @@ main content basic style
   z-index: 1;
   min-height: 100vh;
   padding: 100px 0;
-  background-color: #003c5d;
+  background-color: #DCB5A8;
 }
 
 /* --------------------------------
