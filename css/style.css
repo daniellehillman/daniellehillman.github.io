@@ -20,6 +20,14 @@ body {
   background-color: #AF9783;
 }
 
+main {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #AF9783;
+  background-color: #D6CBC1;
+  align: "right";
+    }
+
 a {
   color: #AF9783;
   text-decoration: none;
@@ -739,6 +747,7 @@ main content basic style
   min-height: 100vh;
   padding: 100px 0;
   background-color: #D6CBC1;
+  color:
 }
 
 /* --------------------------------
