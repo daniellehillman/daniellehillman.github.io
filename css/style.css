@@ -18,6 +18,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: #D6CBC1;
   background-color: #AF9783;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 main {
