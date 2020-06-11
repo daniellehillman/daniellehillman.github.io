@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #D6CBC1;
-  background-color: white;
+  background-color: #AF9783;
 }
 
 a {
@@ -53,7 +53,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: white;
+  background: #AF9783;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -165,7 +165,7 @@ Stretchy Nav style - common to:
   height: 50px;
   line-height: 50px;
   padding: 0 calc(1em + 60px) 0 1em;
-  color: white;
+  color: #AF9783;
   font-size: 1.4rem;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -345,7 +345,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: white;
+  background-color: #AF9783;
   -webkit-transition: width 0.2s, box-shadow 0.2s;
   -moz-transition: width 0.2s, box-shadow 0.2s;
   transition: width 0.2s, box-shadow 0.2s;
@@ -363,7 +363,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: white;
+  background-color: #AF9783;
 }
 .cd-stretchy-nav.add-content .cd-nav-trigger span {
   background-color: transparent;
