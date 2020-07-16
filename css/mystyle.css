@@ -1,5 +1,34 @@
 body {
+  background-color: #AF9783;
+  font-family: sans-serif;
+  color: #D6CBC1;
+}
 
-  background-color: #AF9783
-  
+main {
+  background-color: #AF9783;
+
+}
+
+
+.scrollmenu {
+  text-align: center;
+  display: inline-block;
+}
+
+.Part {
+  height: 100vh;
+  background: white;
+  box-sizing: border-box;
+  padding: 35px;
+
+}
+
+.Part Parth {
+  background: black;
+  color: white;
+}
+
+.Part p {
+  margin:0;
+
 }
