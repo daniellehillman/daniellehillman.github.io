@@ -84,13 +84,19 @@ body, .navbar {
 }
 
 .img-fluid {
-  width: 200px;
-  height: 300px;
+  width: 350px;
+  height: 500px;
 
 }
 
 .work {
   background-color:#D6CBC1;
+  color:#AF9783;
+  font-size: medium;
+}
+
+.work p {
+  font-size: large;
 }
 
 .card {
@@ -229,3 +235,8 @@ a.socialIcon:hover, .socialHoverClass {
 hr.vertical {
   width: 0px;
   height: 100%;
+}
+
+#aboutMetext {
+  color:#AF9783;
+}
