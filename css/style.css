@@ -2,7 +2,6 @@ body, .navbar {
   height: 100%;
   width: 100%;
   background-color: #AF9783;
-  /* font-family: sans-serif; */
   font-family: 'Cormorant', serif;
   color: #D6CBC1;
   text-align: center;
@@ -21,11 +20,12 @@ body, .navbar {
 .navbar-custom .navbar-nav .nav-link {
   color: #AF9783;
 }
-/* change the color of active or hovered links */
+/* change the color of active or hovered links */ 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: #AF9783;
+.navbar-custom .nav-item:hover .nav-link
+.navbar-light .nav-item:hover {
+  color:#AF9783;
 }
 
 
@@ -37,9 +37,21 @@ body, .navbar {
   font-size: 1.1m;
 }
 
+.navbar-brand:hover {
+  color: blue;
+}
 
 .navbar {
   background-color: #D6CBC1;
+}
+
+.navbar.btn:active {
+  color:white;
+}
+
+.nav-item.active {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .jumbotron {
@@ -48,15 +60,12 @@ body, .navbar {
   background-color:#AF9783;
 
 }
-
-.btn-primary {
-  background-color: crimson;
-  border: 1px solid black;
-
+.portfolio {
+  padding-bottom: 0%;
 }
 
 #sendbutton {
-  border: 1px solic black;
+  border: 1px solid black;
 }
 
 .padding {
@@ -84,8 +93,8 @@ body, .navbar {
 }
 
 .img-fluid {
-  width: 350px;
-  height: 500px;
+  width: 275px;
+  height: 400px;
 
 }
 
@@ -102,18 +111,22 @@ body, .navbar {
 .card {
   border-color:#D6CBC1;
   border-width: medium;
+ 
 
 }
 .card-body, .card-subtitle {
   color:#D6CBC1;
   background-color: #AF9783;
-  padding: 20px;
 
   /* width: 300px;
   height: 100px; */
 
 }
 
+.card-text {
+font-size: 20px;
+
+}
 .card-subtitle {
   font-size: small;
 }
@@ -121,6 +134,11 @@ body, .navbar {
 .card-link {
   color: #D6CBC1;
   font-weight: 600;
+}
+
+.card-link:hover {
+  color: rgb(44, 41, 41);
+
 }
 
 .center {
@@ -229,14 +247,13 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .list-unstyled {
-  font-size: small;
+  font-size: medium;
 }
 
-hr.vertical {
-  width: 0px;
-  height: 100%;
-}
 
 #aboutMetext {
   color:#AF9783;
+  font-size: x-large;
 }
+
+
