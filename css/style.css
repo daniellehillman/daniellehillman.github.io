@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body, .navbar {
   height: 100%;
   width: 100%;
@@ -111,6 +116,9 @@ body, .navbar {
 .card {
   border-color:#D6CBC1;
   border-width: medium;
+  border-radius: 0 !important;
+  margin-left: 1px;
+  margin-right: 1px;  
  
 
 }
@@ -121,6 +129,9 @@ body, .navbar {
   /* width: 300px;
   height: 100px; */
 
+}
+.card-group {
+  padding: 30px;
 }
 
 .card-text {
