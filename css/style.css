@@ -11,7 +11,10 @@ body, .navbar {
   color: #D6CBC1;
   text-align: center;
 }
+footer {
+  position: sticky;
 
+}
 /* change the background color */
 .navbar-custom {
   background-color:#D6CBC1;
