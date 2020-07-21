@@ -12,6 +12,8 @@
 <link rel="stylesheet" type="text/css" href="./css/style.css">
 
 <body>
+
+     <!-- same nav bar on all pages for consistency -->
     <nav class="navbar navbar-custom navbar-expand-md navbar-light bg-custom sticky-top">
         <div class="container-fluid">
              <a class="navbar-brand" href="index.html">Danielle Hillman</a>
@@ -40,9 +42,7 @@
     <h1>Contact Page</h1>      
     <p>Add me on my social media or leave an email below! </p>
     <br>
-        <!-- <div class="container-fluid center">  -->
-        <!-- <div class="row center"> -->
-            <!-- <h2>Bootstrap Social Icons</h2> -->
+       <!-- adding links with my my social media  -->
             <div id="contactsTop">
               <ul class="social-network social-circle">
                 <li><a href="mailto: hillm108@mail.chapman.edu" target="_blank" class="icoRss" title="Rss"><i class="fa fa-envelope"></i></a></li>
@@ -54,75 +54,40 @@
             </div>
   </div>
  
+ <!-- section with a form for inquires -->
 
-  <!-- <div class="container">
-	<p>This is some text.</p>      
-	<p>This is another text.</p>      
-  </div> -->
-
-  <!-- <div class="container-fluid">
-	<div class="row text center">
-<div class="col-xxs-12 col-sm-6 col-md-4">
-	 icon that i dont have but its online -->
-	<!-- <i class="fa fa-instagram" aria-hidden="true"></i>
-	<h3>Instagram</h3>
-	<p>helllllo
-    </p>
-</div>
-<div class="col-xxs-12 col-sm-6 col-md-4"> -->
-	<!-- icon that i dont have but its online -->
-	<!-- <i class="fa fa-facebook"></i>
-	<h3>Facebook</h3>
-	<p>helllllo</p>
-</div>
-<div class="col-xxs-12 col-sm-6 col-md-4"> -->
-	<!-- icon that i dont have but its online -->
-	<!-- <i class="fas fa-code"></i>
-	<h3>LinkedIn</h3>
-	<p>helllllo</p>
-</div> --> 
-        <!--Section: Contact v.2-->
-
-<div class="container">
+ <div class="container">
      <hr class="light">
 <section class="mb-4"> 
 
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Leave me a Message</h2>
-    <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
 
     <div class="row">
 
-        <!--Grid column-->
+       
         <div class="col-md-9 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                <!--Grid row-->
                 <div class="row">
-
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
                             <label for="name" class=""></label>
                         </div>
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
+    
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control" placeholder="Your Email">
                             <label for="name" class=""></label>
                         </div>
                     </div>
-                    <!--Grid column-->
+                  
 
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
+            
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
@@ -131,12 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
+               <div class="row">
                     <div class="col-md-12">
 
                         <div class="md-form">
@@ -145,22 +105,22 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
+               
 
             </form>
         <br>
             <div class="text-center text-md-center">
                 <button class="btn btn-primary" id="sendbutton">Send</button>
+                <!-- code from bootstrap but javascript we haven't set up yet  -->
+                <!-- allows the message to be send & send button to work  -->
                 <!-- <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> -->
             </div>
             <div class="status"></div>
         </div>
-        <!--Grid column-->
-        
-        <!--Grid column-->
+    
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
-                <!-- <li><i class="fas fa-phone mt-4 fa-2x"></i> -->
+            <!-- person icon  -->
                     <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
                         <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -168,40 +128,41 @@
                       </svg>
                     <p>Danielle Hillman</p>
                 </li>
+                <!-- house icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                     <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
                   </svg>
-                <!-- <li><i class="fas fa-map-marker-alt fa-2x"></i> -->
                     <p>Yorba Linda, CA</p>
                 </li>
 
+                <!-- phone icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
                     <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                   </svg>
-                <!-- <li><i class="fas fa-phone mt-4 fa-2x"></i> -->
                     <p>(714) 335-7372</p>
                 </li>
+                <!-- email/ envelope icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-inbox" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M3.81 4.063A1.5 1.5 0 0 1 4.98 3.5h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1-.78.624l-3.7-4.624a.5.5 0 0 0-.39-.188H4.98a.5.5 0 0 0-.39.188L.89 9.312a.5.5 0 1 1-.78-.624l3.7-4.625z"/>
                     <path fill-rule="evenodd" d="M.125 8.67A.5.5 0 0 1 .5 8.5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124a1.5 1.5 0 0 1-1.489 1.314H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393zm.941.83l.32 2.562a.5.5 0 0 0 .497.438h12.234a.5.5 0 0 0 .496-.438l.32-2.562H10.45a2.5 2.5 0 0 1-4.9 0H1.066z"/>
                   </svg>
-                <!-- <li><i class="fas fa-envelope mt-4 fa-2x"></i> -->
+             
                     <p>hillm108@mail.chapman.edu</p>
                 </li>
             </ul>
         </div>
-        <!--Grid column-->
+  
 
     </div>
 
 </section>
 </div>
 
-<!--Section: Contact v.2-->
 
-<!-- footer -->
+
+<!-- footer consistent with all pages -->
 <footer class="col-12 padding">
     <hr class="light">
     <div class="container">
@@ -215,7 +176,7 @@
 </footer>
 </footer>
     
-
+<!-- tagging Javascript links from bootstrap, etc.  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
