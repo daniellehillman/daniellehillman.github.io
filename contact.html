@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="./reset.css">
@@ -43,44 +44,43 @@
     <p>Add me on my social media or leave an email below! </p>
     <br>
        <!-- adding links with my my social media  -->
-            <main id="contactsTop">
+            <section id="contactsTop">
               <ul class="social-network social-circle">
-                <li><a href="mailto: hillm108@mail.chapman.edu" target="_blank" class="icoRss" title="Rss"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="mailto:hillm108@mail.chapman.edu" target="_blank" class="icoRss" title="Rss"><i class="fa fa-envelope"></i></a></li>
                 <li><a href="https://www.facebook.com/danielle.hillman.92" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com/danihillman5" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://www.instagram.com/dani_hillman/" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/daniellehillman5/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
               </ul>
-            </main>
+            </section>
         </section>
  
  <!-- section with a form for inquires -->
 
- <main class="container">
+ <section class="container">
      <hr class="light">
 <section class="mb-4"> 
-
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Leave me a Message</h2>
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
 
-    <main class="row">
+    <section class="row">
         <section class="col-md-9 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                 <section class="row">
                     <div class="col-md-6">
-                        <main class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                        <section class="md-form mb-0">
+                            <input id="name" name="name" class="form-control" placeholder="Your Name">
                             <label for="name" class=""></label>
-                        </main>
+                        </section>
                     </div>
     
                     <div class="col-md-6">
-                        <main class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control" placeholder="Your Email">
+                        <section class="md-form mb-0">
+                            <input id="email" name="email" class="form-control" placeholder="Your Email">
                             <label for="name" class=""></label>
-                        </main>
+                        </section>
                     </div>
                   
 
@@ -88,34 +88,34 @@
             
                 <section class="row">
                     <div class="col-md-12">
-                        <main class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                        <section class="md-form mb-0">
+                            <input id="subject" name="subject" class="form-control" placeholder="Subject">
                             <label for="name" class=""></label>
-                        </main>
+                        </section>
                     </div>
                 </section>
                <section class="row">
                     <div class="col-md-12">
 
-                        <main class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message"></textarea>
-                        </main>
+                        <section class="md-form">
+                            <textarea  id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message"></textarea>
+                        </section>
 
                     </div>
                 </section>
             </form>
         <br>
-            <main class="text-center text-md-center">
+            <section class="text-center text-md-center">
                 <button class="btn btn-primary" id="sendbutton">Send</button>
                 <!-- code from bootstrap but javascript we haven't set up yet  -->
                 <!-- allows the message to be send & send button to work  -->
                 <!-- <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> -->
-            </main>
+            </section>
             <div class="status"></div>
         </section>
     
-        <section class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
+        <aside class="col-md-3 text-center">
+            <section class="list-unstyled mb-0">
             <!-- person icon  -->
                     <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
@@ -123,14 +123,14 @@
                         <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
                       </svg>
                     <p>Danielle Hillman</p>
-                </li>
+             
                 <!-- house icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                     <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
                   </svg>
                     <p>Yorba Linda, CA</p>
-                </li>
+              
 
                 <!-- phone icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@
                     <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                   </svg>
                     <p>(714) 335-7372</p>
-                </li>
+                
                 <!-- email/ envelope icon  -->
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-inbox" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M3.81 4.063A1.5 1.5 0 0 1 4.98 3.5h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1-.78.624l-3.7-4.624a.5.5 0 0 0-.39-.188H4.98a.5.5 0 0 0-.39.188L.89 9.312a.5.5 0 1 1-.78-.624l3.7-4.625z"/>
@@ -146,29 +146,29 @@
                   </svg>
              
                     <p>hillm108@mail.chapman.edu</p>
-                </li>
-            </ul>
+                
+           
         </section>
   
 
-    </main>
-
+    </aside>
 </section>
-</main>
+</section>
+</section>
 
 
 
 <!-- footer consistent with all pages -->
 <footer class="col-12 padding">
     <hr class="light">
-    <main class="container">
+    <section class="container">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
             <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
             <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
           </svg>
         <p>Danielle Hillman | (714)335-7372 |  hillm108@mail.chapman.edu</p> 
-        </main>
+        </section>
 </footer>
     
 <!-- tagging Javascript links from bootstrap, etc.  -->

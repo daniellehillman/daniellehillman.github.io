@@ -280,4 +280,7 @@ a.socialIcon:hover, .socialHoverClass {
   font-size: x-large;
 }
 
+.lovinglist {
+  list-style-position: inside;
+}
 

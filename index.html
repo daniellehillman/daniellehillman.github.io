@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="./reset.css">
@@ -49,13 +50,16 @@
   <!-- about me section using containers -->
   <section class="container-fluid padding work">
 	<section class="row padding" >
-		<main class="col-md-12 col-lg-6">
+		<section class="col-md-12 col-lg-6">
 			<h2>About Me</h2>
 			<p id="aboutMeText"> Hello! I am Danielle Hillman, a recent college graduate from Chapman University.</p>
 				<p> 
 				Currently, I am an aspiring Web Developer and enrolled in UCI's Coding Bootcamp for Full Stack Web Development. 
-				<p>
-					Some things that I love:
+				</p>
+			
+				<h4>Some things that I love:</h4>
+				<ul class = "lovinglist">
+					
 					<li>
 						my family & friends
 					</li>
@@ -69,7 +73,8 @@
 						health & wellness
 					</li>
 
-				</p>
+				</ul>
+				
 			
 				<!-- Text that I will add after the project is grading for resume purposes -->
 			<!-- <p>
@@ -77,10 +82,10 @@
 			</p> -->
 
 
-		</main>
+		</section>
 		<!-- picture of myself -->
 		<figure class="col-lg-6">
-			<img src="profilepic.jpg" class="img-fluid">
+			<img src="profilepic.jpg" class="img-fluid" alt ="Picture of me">
 	
 		</figure>
 	</section>
@@ -90,7 +95,7 @@
 	<article class="container-fluid padding">
 		<article class="row welcome text-center">
 			<div class="col-12">
-				<h1 class="display-4">Experience</h1>
+				<h4 class="display-4">Experience</h4>
 			</div>
 			<hr>
 	
@@ -100,9 +105,9 @@
 	<!-- first experience section  -->
 	<section class="container-fluid padding center">
 		<section class="row">
-			<main class="col-md-12">
-				<main class="card">
-					<main class="card-body">
+			<div class="col-md-12">
+				<section class="card">
+					<section class="card-body">
 						<h4 class="card-title-columns">
 							Chapman University
 						</h4>
@@ -111,34 +116,34 @@
 						</p>
 						<p class="card-text">2016-2020</p>
 						<!-- <a href="#" class="btn btn-outline-secondary">purple</a> -->
-					</main>
-				</main>
+					</section>
+				</section>
 				
-			</main>
+			</div>
 	
 		</section>
 	</section>
 	<!-- second experience section  -->
 	<section class="container-fluid padding center">
 		<section class="row">
-			<main class="col-md-12">
+			<section class="col-md-12">
 				<div class="card">
-					<main class="card-body">
+					<div class="card-body">
 						<h4 class="card-title-columns">
 						Amaryllis Apparel</h4>
 						<p class="card-text">Marketing Intern</p>
 						<p class="card-text">February 2020-May 2020</p>
-					</main>
+						</div>
 				</div>
-			</main>
+			</section>
 		</section>
-</section>
+	</section>
 	<!-- third experience section  -->
 	<section class="container-fluid padding center">
 		<section class="row">
-			<main class="col-md-12">
+			<section class="col-md-12">
 				<div class="card">
-					<main class="card-body">
+					<div class="card-body">
 						<h4 class="card-title-columns">
 							Pacific Western Bank
 						</h4>
@@ -146,10 +151,10 @@
 							Financial Planning and Analysis Intern
 						</p>
 						<p class="card-text">June 2019-August 2019</p>
-					</main>
+					</div>
 				</div>
 				
-			</main>
+			</section>
 		</section>
 	</section>
 	
@@ -159,7 +164,7 @@
 <!-- next section with my skills & icons -->
 
 <section class="container-fluid padding work">
-<main class="row welcome text-center">
+<section class="row welcome text-center">
 	<section class="col-12">
 		<h1 class="display-4">Skills</h1>
 		<!-- <hr> -->
@@ -168,13 +173,13 @@
 		<p class="lead">Below are my skills (or soon to be skills) </p>
 		<!-- <hr> -->
 	</section>
-</main>
+</section>
 </section>
 
 <!-- skills area -->
 
 <div class="container-fluid padding work">
-	<main class="row text center">
+	<section class="row text center">
 <section class="col-xxs-12 col-sm-6 col-md-4">
 	<!-- icon from online bootstrap -->
 	<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -202,9 +207,9 @@
 	<h3>CSS</h3>
 	
 	</section>
-</main>
+</section>
 	<hr class="my-4">
-	<main class="row text center">
+	<section class="row text center">
 		<section class="col-xxs-12 col-sm-6 col-md-4">
 			<!-- icon from online bootstrap -->
 			<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -230,9 +235,9 @@
 			  <p></p>
 			<h3>React</h3>
 			</section>
-	</main>
+		</section>
 			<hr class="my-4">
-			<main class="row text center">
+			<section class="row text center">
 				<section class="col-xxs-12 col-sm-6 col-md-4">
 					<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 						<path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"/>
@@ -265,20 +270,20 @@
 					<h3>Python</h3>
 					</section>
 
-				</main>
+				</section>
 				</div>
 
 <!-- footer consistent with all pages -->
 <footer class="col-12 padding">
 	<hr class="light">
-	<main class="container">
+	<section class="container">
 		<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 			<path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
 			<path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
 			<path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
 		  </svg>
 		<p>Danielle Hillman | (714)335-7372 |  hillm108@mail.chapman.edu</p> 
-		</main>
+		</section>
 </footer>
 
 <!-- tagging Javascript links from bootstrap, etc.  -->
