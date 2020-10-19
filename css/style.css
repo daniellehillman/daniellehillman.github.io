@@ -284,3 +284,7 @@ a.socialIcon:hover, .socialHoverClass {
   list-style-position: inside;
 }
 
+.height {
+  height: 400px;
+}
+
